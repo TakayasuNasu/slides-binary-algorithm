@@ -19,20 +19,33 @@ layout: content-1
 
 
 - Ice break
-- Let[s try the Quiz]
+- Let's try the Quiz!
 - Clue1
 - Clue2
 - Solution
 
 
 ---
-layout: section-1
+layout: section-2
 ---
 
 # Ice break
 
 Have you hard word of "binary"?
 
+A binary number is a number expressed in the base-2 integer system, a method of mathematical expression which uses only two symbols: typically "0" (zero) and "1" (one).
+
+
+---
+layout: section-2
+---
+
+# Let's try the Quiz!
+
+
+I'm going to quiz you guys now.
+
+Solution of the quiz can be used binary logic.
 
 
 
@@ -40,55 +53,58 @@ Have you hard word of "binary"?
 layout: section-2
 ---
 
-# SECTION BREAK SLIDE TITLE
+## There are 1,000 bottles of wine. Only one out of a 1,000 bottles of wine has a poison.
+## You can make some slaves drink these bottles.
+## You should find the poisoned bottle by the end of the 24 hours.
+## How many slaves do you need?
 
-Section break slide text
 
-[Documentations](https://sli.dev) / [GitHub Repo](https://github.com/slidevjs/slidev)
 ---
-layout: content-2
+layout: section-1
 ---
-# TABLE
 
-Table text
-
-### Table description
-
-|     |     |
-| --- | --- |
-| <kbd>item kbd</kbd> / <kbd>item kbd</kbd> / <kbd>item kbd</kbd> | row text, row text, row text, row text |
-| <kbd>item kbd</kbd> | row text |
-| <kbd>item kbd</kbd> | previous slide |
-| <kbd>item kbd</kbd> | next slide |
+# A. 10 slaves.
 
 ---
 layout: image-side
-image: 'https://source.unsplash.com/collection/94734566/1920x1080'
+image: 'https://miro.medium.com/max/1838/1*ypQIMZY3QWc51ciNfhLlmg.png'
 ---
 
-# CODE EXAMPLE
+## Solution
 
-Code description
+- If there is only one wine bottle, you need one slave.
+- If there are two wine bottles, you need one slave and you can find one the slave is gonna die or not.
+- If there are three wine, you need two slaves.
+- The first slave will drink 1, the second slave will drink 2, and if they both don't die, you'll know it's 3.
 
-```ts
-interface User {
-  id: number
-  firstName: string
-  lastName: string
-  role: string
-}
 
-function updateUser(id: number, update: Partial<User>) {
-  const user = getUser(id)
-  const newUser = {...user, ...update}
-  saveUser(id, newUser)
-}
+---
+layout: section-2
+---
+
+- If there are four wine, you need two slaves.
+- If there are five wine, you need three slaves.
+
+##### For example, let's say there are x slaves and y bottles of wine to check.
+
 ```
+y = 2^x
+```
+
+
+##### If there are 1,000 wine bottles,
+
+```
+1000 = 2^x
+log(1000) = log(2^x) = x*log(2)
+x = log(1000)/log(2) = 9.966
+```
+
+You need 9.966 slaves, so totally you have to have 10 slaves if you wanna live.
 
 ---
 layout: end
 ---
 
-# Thanks!
+# Thank you for your time and attention!
 
-Some text

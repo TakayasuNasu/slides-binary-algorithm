@@ -20,6 +20,14 @@ h1 + p {
     @apply opacity-40 -mt-4 text-2xl;
 }
 
+h2 {
+    @apply text-6xl mb-4 -ml-[0.05em]  leading-20;
+    font-size: 30px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    font-family: 'Fredericka the Great', cursive;
+}
+
 h5 {
     @apply text-3xl;
     font-style: normal;
