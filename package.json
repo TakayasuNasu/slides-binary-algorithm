@@ -7,7 +7,7 @@
   ],
   "scripts": {
     "dev": "slidev slides.md --open",
-    "build": "slidev build slides.md",
+    "build": "slidev build --base /slides-binary-algorithm/",
     "export": "slidev export slides.md",
     "screenshot": "slidev export slides.md --format png"
   },
