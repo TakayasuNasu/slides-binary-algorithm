@@ -6,10 +6,10 @@
     "slidev"
   ],
   "scripts": {
-    "dev": "slidev example.md --open",
-    "build": "slidev build example.md",
-    "export": "slidev export example.md",
-    "screenshot": "slidev export example.md --format png"
+    "dev": "slidev slides.md --open",
+    "build": "slidev build slides.md",
+    "export": "slidev export slides.md",
+    "screenshot": "slidev export slides.md --format png"
   },
   "dependencies": {
     "@slidev/cli": "^0.27.16",
