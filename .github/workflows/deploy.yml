@@ -1,8 +1,5 @@
 name: Deploy pages
-on:
-  push:
-    branches:
-      - main
+on: push
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -12,9 +9,9 @@ jobs:
         with:
           node-version: '14'
       - name: Install dependencies
-        run: yarn install
+        run: npm install
       - name: Build
-        run: yarn build
+        run: npm run build
       - name: Deploy pages
         uses: crazy-max/ghaction-github-pages@v2
         with:

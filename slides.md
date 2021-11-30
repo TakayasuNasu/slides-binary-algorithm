@@ -29,11 +29,13 @@ layout: content-1
 layout: section-1
 ---
 
-# SECTION BREAK SLIDE TITLE
+# Ice break
 
-Section break slide text
+Have you hard word of "binary"?
 
-[Documentations](https://sli.dev) / [GitHub Repo](https://github.com/slidevjs/slidev)
+
+
+
 ---
 layout: section-2
 ---
