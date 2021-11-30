@@ -47,6 +47,10 @@ I'm going to quiz you guys now.
 
 Solution of the quiz can be used binary logic.
 
+I think a person who can solve this quiz less than five minutes is very talented.
+
+## Are you guys ready?
+
 
 
 ---
@@ -58,6 +62,35 @@ layout: section-2
 ## You should find the poisoned bottle by the end of the 24 hours.
 ## How many slaves do you need?
 
+---
+layout: section-1
+---
+
+# Clue 1 <br> Not 1,000 slaves.
+
+---
+layout: section-1
+---
+
+# Clue 2 <br> You should try to think case of only two bottles first.
+
+---
+layout: section-1
+---
+
+# Clue 3 <br> You should try to think case of four bottles next.
+
+---
+layout: section-1
+---
+
+# Special clue <br> Some slaves should drink more than one bottle, One slave has to drink only one bottle.
+
+---
+layout: section-1
+---
+
+# Do you find a solution? <br> Do you need more thinking thime? <br> Next slide is showen anser.
 
 ---
 layout: section-1
@@ -76,16 +109,14 @@ image: 'https://miro.medium.com/max/1838/1*ypQIMZY3QWc51ciNfhLlmg.png'
 - If there are two wine bottles, you need one slave and you can find one the slave is gonna die or not.
 - If there are three wine, you need two slaves.
 - The first slave will drink 1, the second slave will drink 2, and if they both don't die, you'll know it's 3.
-
+- If there are four wine, you need two slaves.
+- If there are five wine, you need three slaves.
 
 ---
 layout: section-2
 ---
 
-- If there are four wine, you need two slaves.
-- If there are five wine, you need three slaves.
-
-##### For example, let's say there are x slaves and y bottles of wine to check.
+##### For example, let's say there are 'x' slaves and 'y' bottles of wine to check.
 
 ```
 y = 2^x
@@ -101,6 +132,8 @@ x = log(1000)/log(2) = 9.966
 ```
 
 You need 9.966 slaves, so totally you have to have 10 slaves if you wanna live.
+
+[https://www.youtube.com/watch?v=TDh5XUJP0nc&t=1604s](https://www.youtube.com/watch?v=TDh5XUJP0nc&t=1604s)
 
 ---
 layout: end
