@@ -84,7 +84,7 @@ layout: section-1
 layout: section-1
 ---
 
-# Special clue <br> Some slaves should drink more than one bottle, One slave has to drink only one bottle.
+# Special clue <br> It is different number of bottles that slaves have to drink.<br>There is a case which nobody die.
 
 ---
 layout: section-1
@@ -113,6 +113,42 @@ image: 'https://miro.medium.com/max/1838/1*ypQIMZY3QWc51ciNfhLlmg.png'
 - If there are five wine, you need three slaves.
 
 ---
+layout: content-2
+---
+
+# Case of two slaves
+
+> '0' is drink, '1' is not drink.
+
+
+| wine / slave  |   s1  |  s2   |
+| --- | --- | --- |
+|  w1  |  0  |  0  |
+|  w2  |  0  |  1  |
+|  w3  |  1  |  0  |
+|  w4  |  1  |  1  |
+
+---
+layout: content-2
+---
+
+## Case of ten slaves
+
+
+| wine / slave  |   s1  |  s2   | s3 | s4 | s5 | s6 | s7 | s8 | s9 | s10 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|  w1  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |
+|  w2  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  1  |
+|  w3  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  1  |  0  |
+|  w4  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  1  |  1  |
+|  w5  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  1  |  0  |  0  |
+|  ...  |    |    |    |    |    |    |    |    |    |    |
+|  w10  |  1  |  1  |  1  |  1  |  1  |  0  |  0  |  1  |  1  |  1  |
+
+If every slaves died, number 1 wine has poison.<br>
+If only slaves six and seven died, the poisoned wine would be number 1,000.
+
+---
 layout: section-2
 ---
 
@@ -121,7 +157,6 @@ layout: section-2
 ```
 y = 2^x
 ```
-
 
 ##### If there are 1,000 wine bottles,
 
@@ -133,11 +168,11 @@ x = log(1000)/log(2) = 9.966
 
 You need 9.966 slaves, so totally you have to have 10 slaves if you wanna live.
 
-[https://www.youtube.com/watch?v=TDh5XUJP0nc&t=1604s](https://www.youtube.com/watch?v=TDh5XUJP0nc&t=1604s)
-
 ---
 layout: end
 ---
 
 # Thank you for your time and attention!
+
+[https://www.youtube.com/watch?v=TDh5XUJP0nc&t=1604s](https://www.youtube.com/watch?v=TDh5XUJP0nc&t=1604s)
 
