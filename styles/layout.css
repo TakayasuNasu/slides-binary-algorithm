@@ -116,7 +116,6 @@ kbd {
     display: flex;
     flex-direction: column;
     right: 60px;
-    bottom: 60px;
 }
 
 img {
