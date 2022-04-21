@@ -204,7 +204,7 @@ layout: section-1
 layout: content-1
 ---
 
-# End
+# The End. Thank you.
 
 <v-click>
 
@@ -262,7 +262,7 @@ layout: content-1
 
 <v-clicks>
 
-- If slave 1 died, which bottle does have poison?
+- If slave 1 died, which of these bottles has poison?
 - w3 has poison.
 
 </v-clicks>
